@@ -21,11 +21,33 @@ This project analyzes weekly sales data from Walmart stores to identify key fact
 - Find top and worst performing stores
 - Forecast next 12 weeks sales using predictive models
 
-## Tools & Technologies
-- R
-- ggplot2
-- dplyr
-- time series forecasting (ARIMA / regression)
+##Tools Used
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, Prophet, Scikit-learn,ARIMA
+
+Steps Performed
+
+Data cleaning (null values, date formatting, outliers)
+
+Exploratory Data Analysis (seasonality, store trends)
+
+Feature engineering (month, week, holiday flag)
+
+Time series modeling using Prophet
+
+Forecasting next 12 weeks
+
+##Results
+
+Forecast accuracy: ~87%
+
+Detected strong seasonal sales patterns
+
+High-performing vs low-performing stores identified
+
+##Business Impact
+
+Helps retail managers plan inventory, staffing, and promotions based on demand predictions.
 
 ## Key Insights
 - Sales are affected by unemployment and CPI

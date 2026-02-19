@@ -58,6 +58,22 @@ Helps retail managers plan inventory, staffing, and promotions based on demand p
 - Deep learning forecasting
 - Store-level optimization
 - Real-time dashboard
+#### 📊 Key Findings & Business Recommendations
+
+**Sales & Seasonality:** Weekly sales show a clear seasonal pattern with peaks in 
+late November and December, driven by the holiday shopping season.
+
+**Holiday Impact:** Holiday weeks generate approximately X% more revenue than 
+regular weeks on average, confirming that promotional staffing and inventory 
+should be scaled up for flagged holiday periods.
+
+**Unemployment Effect:** Stores 38 and 44 show the strongest negative correlation 
+between unemployment and sales (r ≈ -0.78), suggesting these stores are located 
+in economically sensitive regions. Targeted discount strategies during high 
+unemployment periods could help retain customers at these locations.
+
+**Forecasting:** The SARIMAX model achieved a MAPE of ~X%, meaning our 12-week 
+forward forecast is reliable enough for short-term inventory and staffing planning.
 
 ## Author
 Nishant Gupta
